@@ -3,6 +3,7 @@
   command = "echo 'No build needed'"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/data/*"
+  to = "/data/:splat"
   status = 200
+  force = true
