@@ -1,0 +1,7 @@
+[build]
+  publish = "C:\Users\steam\OneDrive\Рабочий стол\projectroot\index.html"  # например: "public" или "docs"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
