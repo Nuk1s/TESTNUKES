@@ -1,5 +1,6 @@
 [build]
-  publish = "C:\Users\steam\OneDrive\Рабочий стол\projectroot\index.html"  # например: "public" или "docs"
+  publish = "./"  # Корневая директория проекта
+  command = "echo 'No build needed'"
 
 [[redirects]]
   from = "/*"
